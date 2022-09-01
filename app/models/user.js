@@ -1,6 +1,7 @@
 const mongoose  = require("mongoose")
 const bcrypt = require('bcrypt')
 
+/* This is creating a new schema for the user model. */
 let userSchema = new mongoose.Schema({
     name: String,
     email: { type: String, require: true, unique: true },
