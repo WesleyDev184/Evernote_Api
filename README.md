@@ -4,6 +4,7 @@ API project for the Evernote Clone client. made using Node.js + Express + MongoD
 
 ### Technologies Used:
 
+- JavaScript
 - Node.js
 - Express
 - Bcrypt
