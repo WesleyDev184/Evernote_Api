@@ -1,5 +1,5 @@
-var express = require('express');
-var router = express.Router();
+const express = require('express');
+const router = express.Router();
 const Note = require('../models/note');
 const WithAuth = require('../middlewares/auth');
 const { findByIdAndUpdate, findOneAndUpdate } = require('../models/note');
